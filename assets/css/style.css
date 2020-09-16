@@ -1,0 +1,316 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(./../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(./../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+body {
+  /* background-color: #008695; */
+  margin: 0px;
+  font-family: Poppins-Regular;
+  background-color: #1ba1fc;
+  overflow-y: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-2 {
+  width: 16.66666666%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33333333%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66666666%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33333333%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66666666%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33333333%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  text-align: center;
+  font-size: 2.7rem;
+  color: #fff;
+  font-family: Poppins-Bold;
+  /* margin-top: 8%; */
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+
+.head-dot {
+  font-size: 10px;
+  /* color: #039be5; */
+  color: #fff;
+}
+
+.in {
+  background-color: #fff;
+  color: #008596;
+  padding: 0 2px;
+  margin-left: 2px;
+  border-radius: 2px;
+}
+
+.copy {
+  color: #59aec0;
+  font-size: 18px;
+  margin-left: 2px;
+}
+
+.tagline {
+  text-align: center;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 350px;
+  margin: auto;
+  overflow: hidden;
+  padding: 1rem 2rem;
+
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.menu {
+  letter-spacing: 0px;
+  color: #a8bac3;
+  font-size: 20px;
+  width: 70px;
+  height: 33px;
+  font-family: Poppins-SemiBold;
+}
+
+.active.menu {
+  letter-spacing: 0px;
+  color: #000000cc;
+}
+
+.margin-top-2 {
+  margin-top: 2%;
+}
+
+.margin-10 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.margin-8 {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5%;
+}
+
+label {
+  display: block;
+  color: #000000cc;
+  font-size: 14px;
+  float: left;
+}
+.label-left {
+  margin-left: 3%;
+}
+
+.input-left {
+  margin-left: 3%;
+  width: 97%;
+}
+
+.input-right {
+  margin-right: 3%;
+  width: 95%;
+}
+
+input {
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #fcfcfc;
+  border: 1px solid #00000033;
+  border-radius: 4px;
+  font-family: Poppins-Regular;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+
+input:focus {
+  border: 1px solid #00000033;
+}
+
+.policy {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5%;
+  color: #8096a0;
+  letter-spacing: 0px;
+}
+
+.forgotPassword {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 1%;
+  color: #8096a0;
+  letter-spacing: 0px;
+}
+
+.policy b,
+.forgotPassword b {
+  color: #5c7480;
+}
+
+.policy a,
+.forgotPassword a {
+  color: #000;
+}
+
+.policy a:hover,
+.forgotPassword a:hover {
+  color: #008695;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  background-color: #3cba0d;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  /* font-size: 1.2rem; */
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background: #ebf0fa 0% 0% no-repeat padding-box;
+  padding: 0.7rem 1rem;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #8096a0;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.btn-filled-left {
+  margin-left: 5%;
+  width: 95%;
+}
+.btn-filled-right {
+  margin-right: 5%;
+  width: 95%;
+}
+
+.google {
+  background: #df4a32 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.facebook {
+  background: #39579a 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.google i,
+.facebook i {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.reset-sub-title {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #494c57;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.footer-cell {
+  background: #ebf0fa 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0px;
+  opacity: 1;
+  padding: 5%;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-bottom: -25px;
+}
+
+.footer-line {
+  margin: 3.5% 0%;
+  color: #000000;
+  font-size: 14px;
+  text-align: left;
+  cletter-spacing: 0px;
+}
